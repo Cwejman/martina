@@ -1,0 +1,7 @@
+<div class="content-container">
+
+  <div class="content-columns" ng-repeat="i in getColumns() track by $index">
+    <img class="content-artwork" ng-repeat="artwork in chunk($index, resolution)" ng-src="data/images/{{ artwork.name | file }}.jpg">
+  </div>
+
+</div>
