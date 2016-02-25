@@ -16,7 +16,7 @@ angular.module('martina', ['ui.router', 'controllers', 'services'])
         controller: 'HomeCtrl',
         resolve: {
           json: ["$http", function ($http) {
-            return $http({url: "martina/data/data.json"}).success(function (data) {
+            return $http({url: "data/data.json"}).success(function (data) {
               return data
             })
           }]
