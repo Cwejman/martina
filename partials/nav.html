@@ -3,15 +3,21 @@
     <div class="bold">MARTINA&nbsp;</div>
     <div class="thin">JAKOBSSON</div>
   </div>
+
   <div class="nav-menu big">
-    <div class="bold">GALLERY</div>
+    <div class="thin" ng-class="{'bold': state == 'gallery'}" ui-sref="gallery">GALLERY</div>
     <div class="gray">&nbsp;|&nbsp;</div>
-    <div class="thin">PERFORMANCE</div>
+    <div class="thin"ng-class="{'bold': state == 'performance'}" ui-sref="performance">PERFORMANCE</div>
     <div class="gray">&nbsp;|&nbsp;</div>
-    <div class="thin">CONTACT</div>
+    <div class="thin"ng-class="{'bold': state == 'contact'}" ui-sref="contact">CONTACT</div>
   </div>
   <div class="nav-menu small">
     <i class="ion-navicon"></i>
   </div>
 
+</div>
+<div class="nav-menu-mobile">
+  <div class="thin" ng-class="{'bold': state == 'gallery'}" ui-sref="gallery">GALLERY</div>
+  <div class="thin"ng-class="{'bold': state == 'performance'}" ui-sref="performance">PERFORMANCE</div>
+  <div class="thin"ng-class="{'bold': state == 'contact'}" ui-sref="contact">CONTACT</div>
 </div>
