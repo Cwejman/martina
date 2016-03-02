@@ -6,7 +6,7 @@ angular.module('controllers', [])
 
 })
 
-.controller('HomeCtrl', function ($scope, json) {
+.controller('GalleryCtrl', function ($scope, json) {
 
   var data = json.data
   var width = 200
@@ -45,5 +45,13 @@ angular.module('controllers', [])
     }), 250)
 
   })
+
+})
+
+.controller('PerformanceCtrl', function ($scope) {
+
+})
+
+.controller('ContactCtrl', function ($scope) {
 
 })
