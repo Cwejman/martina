@@ -64,7 +64,6 @@ i {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  white-space: pre;
 }
 
 .nav-name {
