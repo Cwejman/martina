@@ -1,6 +1,8 @@
 angular.module('controllers', [])
 
-.controller('NavCtrl', function ($scope) {
+.controller('NavCtrl', function ($scope, $state) {
+
+  $scope.state = $state.current.name
 
 })
 
