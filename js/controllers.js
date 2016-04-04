@@ -6,7 +6,7 @@ angular.module('controllers', [])
 
 })
 
-.controller('GalleryCtrl', function ($scope, json) {
+.controller('GalleryCtrl', function ($scope, json, responsive) {
 
   var data = json.data
   var width = 200
@@ -15,14 +15,8 @@ angular.module('controllers', [])
 
   $scope.resolution = 0
 
-  var size = function (callback) {
-    var number = Math.round($(window).width() / width)
-    if (number > max) number = max
-    $scope.resolution = number
-    if (arguments.length == 1) callback()
-  }
-
-  $scope.getColumns = function() {
+  $scope.columns = function () {
+    console.log($scope.resolution);
     return new Array($scope.resolution);
   }
 
@@ -35,13 +29,19 @@ angular.module('controllers', [])
     })
   }
 
-  size()
-
-  $(window).on('resize', function(e) {
-
-    clearTimeout(resizeTimer)
-    resizeTimer = setTimeout(size(function () {
+  responsive.run(
+    function () {
       $scope.$apply()
+    },
+    function (resolution) {
+      var number = Math.round($(window).width() / width)
+      if (number > max) number = max
+      $scope.resolution = number
+    }
+  )
+
+})
+
     }), 250)
 
   })
