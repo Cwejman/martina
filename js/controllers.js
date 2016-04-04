@@ -42,12 +42,77 @@ angular.module('controllers', [])
 
 })
 
+.controller('AboutCtrl', function ($scope, json, responsive) {
 
-  })
+  $scope.data = json.data
 
-})
+  $scope.arrayify = function(number) {
+    return new Array(number)
+  }
 
-.controller('PerformanceCtrl', function ($scope) {
+  responsive.run(
+    function () {
+      $scope.$apply()
+    },
+    function () {
+      var breakPoint = 700
+      var paddingImage = 20
+      var paddingBig = 40
+      var paddingSmall = 20
+
+      var width = $('.about').width()
+      var groups = $scope.data
+      var sum, workwidth, i, j, paddingMinus
+
+      var ratioImage = groups.slice().map(function (group) {
+        return group.slice().map(function (image) {
+          return [image.height / image.width, image.width / image.height]
+        })
+      })
+
+      var ratioGroup = ratioImage.slice().map(function (group) {
+        return group.slice().reduce(function (sum, ratio) {
+          return [sum[0] + ratio[0], sum[1] + ratio[1]]
+        }, [0, 0])
+      })
+
+      function size (tag, width, height) {
+        $(tag).width(width).height(height)
+      }
+
+      // Desktop sized screen
+      if ($(window).width() > breakPoint) {
+        workWidth = width - paddingBig
+        sum = 1/ratioGroup[0][0] + 1/ratioGroup[1][0]
+
+        for (i = 0; i < groups.length; i++) {
+
+          for (j = 0; j < groups[i].length; j++) {
+
+            paddingMinus = (ratioImage[i].length == 1) ? 0 : ((ratioImage[i].length-1)*paddingImage) / ratioImage[i].length
+
+            $('#s' + (i).toString() + (j).toString()).width((1/ratioGroup[i][0]/sum) * workWidth)
+              .height((1/ratioGroup[i][0]/sum) * workWidth * ratioImage[i][j][0] - paddingMinus)
+          }
+        }
+      }
+
+      // Mobile sized screen
+      else {
+        workWidth = width - paddingSmall
+
+        for (i = 0; i < groups.length; i++) {
+
+          paddingMinus = (ratioImage[i].length == 1) ? 0 : ((ratioImage[i].length-1)*paddingImage) / ratioImage[i].length
+
+          for (j = 0; j < groups[i].length; j++) {
+            $('#s' + (i).toString() + (j).toString()).width(ratioImage[i][j][1] / ratioGroup[i][1] * workWidth - paddingMinus)
+              .height(workWidth / ratioGroup[i][1] - paddingMinus)
+          }
+        }
+      }
+    }
+  )
 
 })
 
