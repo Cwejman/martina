@@ -119,12 +119,21 @@ h1 {
 }
 
 .nav-menu-mobile {
-  margin-top: 50px
+  margin: 50px 0 -50px;
+  padding: 10px 0;
+  background: #fafafa;
 }
 
-.nav-menu-mobile div{
+.nav-menu-mobile > div{
   width: 100%;
-  display: none;
+  height: 50px;
+  vertical-align: middle;
+  text-align: center;
+  line-height: 50px;
+}
+
+.nav-menu-mobile > div:hover {
+  background: #f1f1f1;
 }
 
 .gallery-columns {
