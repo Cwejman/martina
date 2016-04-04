@@ -16,7 +16,7 @@ angular.module('martina', ['ui.router', 'controllers', 'services'])
         controller: 'GalleryCtrl',
         resolve: {
           json: ["$http", function ($http) {
-            return $http({url: "data/data.json"}).success(function (data) {
+            return $http({url: "data/gallery.json"}).success(function (data) {
               return data
             })
           }]
@@ -25,16 +25,16 @@ angular.module('martina', ['ui.router', 'controllers', 'services'])
     }
   })
 
-  .state('performance', {
-    url: '/performance',
+  .state('about', {
+    url: '/about',
     views: {
       'nav': {
         templateUrl: 'partials/nav.html',
         controller: 'NavCtrl'
       },
       'content': {
-        templateUrl: 'partials/performance.html',
-        controller: 'PerformanceCtrl'
+        templateUrl: 'partials/about.html',
+        controller: 'AboutCtrl',
       }
     }
   })
