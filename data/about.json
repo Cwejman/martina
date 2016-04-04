@@ -1,0 +1,21 @@
+[
+  [
+    {
+      "name": "Profil",
+      "width": 2448,
+      "height": 2448
+    }
+  ],
+  [
+    {
+      "name": "Doorway",
+      "width": 2475,
+      "height": 1296
+    },
+    {
+      "name": "Show",
+      "width": 960,
+      "height": 960
+    }
+  ]
+]
