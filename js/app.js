@@ -35,6 +35,13 @@ angular.module('martina', ['ui.router', 'controllers', 'services'])
       'content': {
         templateUrl: 'partials/about.html',
         controller: 'AboutCtrl',
+        resolve: {
+          json: ["$http", function ($http) {
+            return $http({url: "data/about.json"}).success(function (data) {
+              return data
+            })
+          }]
+        }
       }
     }
   })
