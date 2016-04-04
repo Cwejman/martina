@@ -1,0 +1,19 @@
+<div class="about">
+
+  <h1>ABOUT ME</h1>
+
+  {{sizes}}
+
+  <div class="about-images">
+    <div class="about-first" id="s0">
+      <div class="about-image" id="s00" ng-style="{'background-image': 'url(data/about/{{ data[0][0]['name'] | file }}.jpg)'}">
+      </div>
+    </div>
+
+    <div class="about-second" id="s1">
+      <div class="about-image" ng-repeat="i in arrayify(data[1].length) track by $index" ng-style="{'background-image': 'url(data/about/{{ data[1][$index]['name'] | file }}.jpg)'}" id="s1{{$index}}">
+      </div>
+    </div>
+  </div>
+
+</div>
