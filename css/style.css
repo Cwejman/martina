@@ -138,11 +138,11 @@ h1 {
   background: rgb(208, 208, 208);
 }
 
-.performance {
+.about {
   flex-direction: column;
 }
 
-.performance > p {
+.about > p {
   margin: 4px 1px;
 }
 
