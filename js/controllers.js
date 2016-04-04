@@ -3,6 +3,7 @@ angular.module('controllers', [])
 .controller('NavCtrl', function ($scope, $state) {
 
   $scope.state = $state.current.name
+  $scope.mobile = false
 
 })
 
