@@ -20,6 +20,15 @@ h1 {
   .big {
     display: none !important;
   }
+  .about-images {
+    flex-direction: column;
+  }
+  .about-second {
+  margin: 20px 0 0 0;
+  }
+  .about-second > div {
+    margin: 0 20px 0 0;
+  }
 }
 
 @media only screen and (min-width: 700px) {
@@ -29,6 +38,13 @@ h1 {
   [ui-view*="content"] > div {
     width: calc(100% - 80px) !important;
     padding: 30px 0 0 20px !important;
+  }
+  .about-second {
+    flex-direction: column;
+    margin: 0 0 0 20px;
+  }
+  .about-second > div {
+    margin: 0 0 20px 0;
   }
 }
 
@@ -128,4 +144,17 @@ h1 {
 
 .performance > p {
   margin: 4px 1px;
+}
+
+.about-images {
+  display: flex;
+}
+
+.about-image {
+  background-size: 100%;
+}
+
+.about-second {
+  display: flex;
+  width: 100%;
 }
