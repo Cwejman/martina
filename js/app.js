@@ -60,6 +60,27 @@ angular.module('martina', ['ui.router', 'controllers', 'services'])
     }
   })
 
+  .state('lightroom', {
+    url: '/lightroom:image',
+    views: {
+      'nav': {
+        templateUrl: 'partials/lightroomNav.html',
+        controller: 'NavCtrl'
+      },
+      'content': {
+        templateUrl: 'partials/lightroom.html',
+        controller: 'LightroomCtrl',
+        resolve: {
+          json: ["$http", function ($http) {
+            return $http({url: "data/gallery.json"}).success(function (data) {
+              return data
+            })
+          }]
+        }
+      }
+    }
+  })
+
 
   $urlRouterProvider.otherwise('/gallery')
 
