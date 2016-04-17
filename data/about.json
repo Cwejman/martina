@@ -1,4 +1,5 @@
 [
+
   [
     {
       "name": "Profil",
@@ -6,6 +7,7 @@
       "height": 2448
     }
   ],
+
   [
     {
       "name": "Doorway",
@@ -17,5 +19,60 @@
       "width": 960,
       "height": 960
     }
+  ],
+
+  [
+    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"
+  ],
+
+  [
+    {
+      "name": "Educations",
+      "content": [
+        "2009-2011: Kulturverkstan, Sweden",
+        "2000-2003: NSW University BA of the Fine Arts, Australia",
+        "1994-1995: Central St Martins School of Art and Design, UK",
+        "1993-1994: Nässjö folkhögskola allmänsestetisk linje"
+      ]
+    },
+    {
+      "name": "Exhibitions",
+      "content": [
+        "2013: Änggårdens B&B",
+        "2012: Lagerhuset, Gothenburg",
+        "2012: Co Home, Gothenburg",
+        "2011: Bränno Konstrunda, Gothenburg",
+        "2010: Gallery Art-On, Kungsbacka",
+        "2010: Mölndals Museum, Gothenburg",
+        "2009: Rödasten Konsthall, Gothenburg",
+        "2008: Gallery Mosebacke, Stockholm",
+        "2007: Väner Museum, Lidköping",
+        "2006: Haga Gallery, Gothenburg",
+        "2006: Tegung Gallery, Bali",
+        "2004: Falleri Art-On, Gothenburg",
+        "2004: Galleri Win-Win, Gothenburg",
+        "2003: The Space, Mullumbimby",
+        "2000: The livingroom, Melbourne",
+        "1998: Galleri A, Gothenburg",
+        "1997: Steiner Institute, NY",
+        "1996: Bondi Pavilion, Sydney",
+        "1996: Wadi Gallery, Sydney",
+        "1995: Box Gallery, London",
+        "1994: Jönköpings kulturhus"
+      ]
+    },
+    {
+      "name": "Performances",
+      "content": [
+        "2013: Participant in William Hurts Weight, Stora teatern, Gothenburg",
+        "2011: Participant in Tino Segals piece Pandemonium, Konsthallen, Gothenburg",
+        "2003-2005: Matajo Fireperformance, Globen Stockholm",
+        "2001: The Lorax, Melbourne",
+        "2001: Tribepod Improtheatre, Byron Bay",
+        "2000: Teater Aktör piece Sevärdhet, Gothenburg",
+        "1999: The Tempest, NY"
+      ]
+    }
   ]
+
 ]

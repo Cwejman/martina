@@ -1,162 +1,130 @@
 [
   {
     "name": "A giving hand",
-    "material": "collage and acrylics on paper",
-    "size": [20,20]
+    "info": "Collage and acrylics on paper, 20cm x 20cm"
   },
   {
     "name": "African bird",
-    "material": "acrylics on canvas",
-    "size": [30,30]
+    "info": "Acrylics on canvas, 30cm x 30cm"
   },
   {
     "name": "Balansgång",
-    "material": "acrylics on canvas",
-    "size": [120,80]
+    "info": "Acrylics on canvas, 120cm x 80cm"
   },
   {
     "name": "Birds eye",
-    "material": "collage and acrylics on canvas",
-    "size": [70,100]
+    "info": "Collage and acrylics on canvas, 70cm x 100cm"
   },
   {
     "name": "Blå tid",
-    "material": "acrylics on canvas",
-    "size": [100,60]
+    "info": "Acrylics on canvas, 100cm x 60cm"
   },
   {
     "name": "Bland husen",
-    "material": "acrylics on canvas",
-    "size": [120,80]
+    "info": "Acrylics on canvas, 120cm x 80cm"
   },
   {
     "name": "De androgyna",
-    "material": "acrylics on canvas",
-    "size": [60,40]
+    "info": "Acrylics on canvas, 60cm x 40cm"
   },
   {
     "name": "DNA",
-    "material": "",
-    "size": [0,0]
+    "info": ""
   },
   {
     "name": "Dreamcastle",
-    "material": "",
-    "size": [0,0]
+    "info": ""
   },
   {
     "name": "Drömmarnas skepp",
-    "material": "",
-    "size": [0,0]
+    "info": ""
   },
   {
     "name": "Dynamic mind",
-    "material": "",
-    "size": [0,0]
+    "info": ""
   },
   {
     "name": "Evolutionary leap",
-    "material": "",
-    "size": [0,0]
+    "info": ""
   },
   {
     "name": "Flygande färd",
-    "material": "",
-    "size": [0,0]
+    "info": ""
   },
   {
     "name": "Girls portrait",
-    "material": "",
-    "size": [0,0]
+    "info": ""
   },
   {
     "name": "In my mind",
-    "material": "",
-    "size": [0,0]
+    "info": ""
   },
   {
     "name": "In the aquarium",
-    "material": "",
-    "size": [0,0]
+    "info": ""
   },
   {
     "name": "Island bay",
-    "material": "",
-    "size": [0,0]
+    "info": ""
   },
   {
     "name": "Love is in the air",
-    "material": "",
-    "size": [0,0]
+    "info": ""
   },
   {
     "name": "Loveboat",
-    "material": "",
-    "size": [0,0]
+    "info": ""
   },
   {
     "name": "Mor och barn",
-    "material": "",
-    "size": [0,0]
+    "info": ""
   },
   {
     "name": "Plastic dress",
-    "material": "",
-    "size": [0,0]
+    "info": ""
   },
   {
     "name": "River of life",
-    "material": "",
-    "size": [0,0]
+    "info": ""
   },
   {
     "name": "Rosa möte",
-    "material": "",
-    "size": [0,0]
+    "info": ""
   },
   {
     "name": "Self portrait",
-    "material": "",
-    "size": [0,0]
+    "info": ""
   },
   {
     "name": "Sovande dans",
-    "material": "",
-    "size": [0,0]
+    "info": ""
   },
   {
     "name": "Towards the light",
-    "material": "",
-    "size": [0,0]
+    "info": ""
   },
   {
     "name": "Trinity",
-    "material": "",
-    "size": [0,0]
+    "info": ""
   },
   {
     "name": "Under protection",
-    "material": "",
-    "size": [0,0]
+    "info": ""
   },
   {
     "name": "Vid vulkansjön",
-    "material": "",
-    "size": [0,0]
+    "info": ""
   },
   {
     "name": "Vit fågel",
-    "material": "",
-    "size": [0,0]
+    "info": ""
   },
   {
     "name": "Waves",
-    "material": "",
-    "size": [0,0]
+    "info": ""
   },
   {
     "name": "You and me",
-    "material": "",
-    "size": [0,0]
+    "info": ""
   }
 ]
