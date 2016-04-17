@@ -16,9 +16,8 @@ angular.module('controllers', [])
 
   $scope.resolution = 0
 
-  $scope.columns = function () {
-    console.log($scope.resolution);
-    return new Array($scope.resolution);
+  $scope.columns = function() {
+    return new Array($scope.resolution)
   }
 
   $scope.chunk = function (column, resolution) {
@@ -34,18 +33,76 @@ angular.module('controllers', [])
     function () {
       $scope.$apply()
     },
-    function (resolution) {
-      var number = Math.round($(window).width() / width)
-      if (number > max) number = max
-      $scope.resolution = number
-    }
-  )
+    function (main, input, output) {
+      $scope.$on('$viewContentLoaded', function() {
+        main(input, output)
+       })
+    },
+    function () {
+    var number = Math.round($(window).width() / width)
+    if (number > max) number = max
+    $scope.resolution = number
+  })
 
 })
 
 .controller('AboutCtrl', function ($scope, json, responsive) {
 
+  var response = function () {
+    var groups = json.data.slice(0)
+        groups.splice(2, 2)
+
+    var ratioImage = groups.slice().map(function (group) {
+      return group.slice().map(function (image) {
+        return [image.height / image.width, image.width / image.height]
+      })
+    })
+
+    var ratioGroup = ratioImage.slice().map(function (group) {
+      return group.slice().reduce(function (sum, ratio) {
+        return [sum[0] + ratio[0], sum[1] + ratio[1]]
+      }, [0, 0])
+    })
+
+    if ($(window).width() > 700) {
+      // Desktop sized screen
+      $scope.mobile = false
+      workWidth = $('.about').width() - 40
+      sum = 1/ratioGroup[0][0] + 1/ratioGroup[1][0]
+
+      groups.forEach(function (group, i) {
+        paddingMinus = (ratioImage[i].length == 1) ? 0 : ((ratioImage[i].length-1)*20) / ratioImage[i].length
+        group.forEach(function (image, j) {
+          $scope.height = 50
+            $scope.sizes['s' + (i).toString() + (j).toString()] = [
+              (1/ratioGroup[i][0]/sum) * workWidth * ratioImage[i][j][0] - paddingMinus,
+              (1/ratioGroup[i][0]/sum) * workWidth
+            ]
+        })
+      })
+    } else {
+      // Mobile sized screen
+      $scope.mobile = true
+      workWidth = $('.about').width() - 20
+
+      groups.forEach(function (group, i) {
+        paddingMinus = (ratioImage[i].length == 1) ? 0 : ((ratioImage[i].length-1)*20) / ratioImage[i].length
+        group.forEach(function (image, j) {
+          $scope.sizes['s' + (i).toString() + (j).toString()] = [
+            workWidth / ratioGroup[i][1] - paddingMinus,
+            ratioImage[i][j][1] / ratioGroup[i][1] * workWidth - paddingMinus
+          ]
+        })
+      })
+    }
+
+    console.log($scope.sizes);
+  }
+
   $scope.data = json.data
+  $scope.mobile = false
+  $scope.done = response
+  $scope.sizes = []
 
   $scope.arrayify = function(number) {
     return new Array(number)
@@ -55,64 +112,12 @@ angular.module('controllers', [])
     function () {
       $scope.$apply()
     },
-    function () {
-      var breakPoint = 700
-      var paddingImage = 20
-      var paddingBig = 40
-      var paddingSmall = 20
-
-      var width = $('.about').width()
-      var groups = $scope.data
-      var sum, workwidth, i, j, paddingMinus
-
-      var ratioImage = groups.slice().map(function (group) {
-        return group.slice().map(function (image) {
-          return [image.height / image.width, image.width / image.height]
-        })
-      })
-
-      var ratioGroup = ratioImage.slice().map(function (group) {
-        return group.slice().reduce(function (sum, ratio) {
-          return [sum[0] + ratio[0], sum[1] + ratio[1]]
-        }, [0, 0])
-      })
-
-      function size (tag, width, height) {
-        $(tag).width(width).height(height)
-      }
-
-      // Desktop sized screen
-      if ($(window).width() > breakPoint) {
-        workWidth = width - paddingBig
-        sum = 1/ratioGroup[0][0] + 1/ratioGroup[1][0]
-
-        for (i = 0; i < groups.length; i++) {
-
-          for (j = 0; j < groups[i].length; j++) {
-
-            paddingMinus = (ratioImage[i].length == 1) ? 0 : ((ratioImage[i].length-1)*paddingImage) / ratioImage[i].length
-
-            $('#s' + (i).toString() + (j).toString()).width((1/ratioGroup[i][0]/sum) * workWidth)
-              .height((1/ratioGroup[i][0]/sum) * workWidth * ratioImage[i][j][0] - paddingMinus)
-          }
-        }
-      }
-
-      // Mobile sized screen
-      else {
-        workWidth = width - paddingSmall
-
-        for (i = 0; i < groups.length; i++) {
-
-          paddingMinus = (ratioImage[i].length == 1) ? 0 : ((ratioImage[i].length-1)*paddingImage) / ratioImage[i].length
-
-          for (j = 0; j < groups[i].length; j++) {
-            $('#s' + (i).toString() + (j).toString()).width(ratioImage[i][j][1] / ratioGroup[i][1] * workWidth - paddingMinus)
-              .height(workWidth / ratioGroup[i][1] - paddingMinus)
-          }
-        }
-      }
-    }
+    function (main) {
+      $scope.$on('$viewContentLoaded', function() {
+        main()
+       })
+    },
+    response
   )
 
 })
