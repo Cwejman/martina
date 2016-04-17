@@ -1,19 +1,96 @@
 <div class="about">
 
-  <h1>ABOUT ME</h1>
-
-  {{sizes}}
-
   <div class="about-images">
     <div class="about-first" id="s0">
-      <div class="about-image" id="s00" ng-style="{'background-image': 'url(data/about/{{ data[0][0]['name'] | file }}.jpg)'}">
-      </div>
+      <div class="about-image" id="s00" ng-style="{
+        'background-image': 'url(data/about/{{ data[0][0]['name'] | file }}.jpg)',
+        'height': sizes['s00'][0] + 'px',
+        'width': sizes['s00'][1] + 'px'
+      }"></div>
     </div>
 
     <div class="about-second" id="s1">
-      <div class="about-image" ng-repeat="i in arrayify(data[1].length) track by $index" ng-style="{'background-image': 'url(data/about/{{ data[1][$index]['name'] | file }}.jpg)'}" id="s1{{$index}}">
+      <div class="about-image" id="s1{{ $index }}" done="response" ng-repeat="i in arrayify(data[1].length) track by $index" ng-style="{
+        'background-image': 'url(data/about/{{ data[1][$index]['name'] | file }}.jpg)',
+        'height': sizes['s1'+$index][0] + 'px',
+        'width': sizes['s1'+$index][1] + 'px'
+      }"></div>
+    </div>
+  </div>
+
+  <h1>ABOUT ME</h1>
+
+  <p class="info">
+    {{ data[2][0] }}
+  </p>
+
+
+  <div class="about-tables">
+
+    <div class="about-table-column" id="t0">
+
+      <div class="about-table">
+        <div class="about-table-head">
+          {{ data[3][0].name }}
+        </div>
+        <div class="about-table-item" ng-repeat="row in data[3][0].content track by $index" ng-class="{'about-table-item-dark': $index % 2 == 0}">
+          <p>
+            {{ row | first }}
+          </p>
+          <p>
+            {{ row | second }}
+          </p>
+        </div>
+      </div>
+
+      <div class="about-table" ng-if="mobile">
+        <div class="about-table-head">
+          {{ data[3][2].name }}
+        </div>
+        <div class="about-table-item" ng-repeat="row in data[3][2].content track by $index" ng-class="{'about-table-item-dark': $index % 2 == 0}">
+          <p>
+            {{ row | first }}
+          </p>
+          <p>
+            {{ row | second }}
+          </p>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="about-table-column" id="t1">
+      <div class="about-table">
+        <div class="about-table-head">
+          {{ data[3][1].name }}
+        </div>
+        <div class="about-table-item" ng-repeat="row in data[3][1].content track by $index" ng-class="{'about-table-item-dark': $index % 2 == 0}">
+          <p>
+            {{ row | first }}
+          </p>
+          <p>
+            {{ row | second }}
+          </p>
+        </div>
       </div>
     </div>
+
+    <div class="about-table-column" id="t2" ng-if="!mobile">
+      <div class="about-table">
+        <div class="about-table-head">
+          {{ data[3][2].name }}
+        </div>
+        <div class="about-table-item" ng-repeat="row in data[3][0].content track by $index" ng-class="{'about-table-item-dark': $index % 2 == 0}">
+          <p>
+            {{ row | first }}
+          </p>
+          <p>
+            {{ row | second }}
+          </p>
+        </div>
+      </div>
+    </div>
+
   </div>
 
 </div>
