@@ -12,7 +12,7 @@
     <div class="nav-btn thin"ng-class="{'bold': state == 'contact'}" ui-sref="contact">CONTACT</div>
   </div>
   <div class="nav-menu small">
-    <i class="ion-navicon" ng-click="mobile = !mobile"></i>
+    <i ng-class="{'ion-navicon': !mobile, 'ion-android-close': mobile}" ng-click="mobile = !mobile"></i>
   </div>
 
 </div>
