@@ -7,6 +7,15 @@ angular.module('controllers', [])
 
 })
 
+.controller('LightroomCtrl', function ($scope, $stateParams, json) {
+
+  $scope.current = $stateParams.image
+  $scope.data = json.data.find(function (image) {
+    return image.name == $stateParams.image
+  })
+
+})
+
 .controller('GalleryCtrl', function ($scope, json, responsive) {
 
   var data = json.data
@@ -96,7 +105,6 @@ angular.module('controllers', [])
       })
     }
 
-    console.log($scope.sizes);
   }
 
   $scope.data = json.data
