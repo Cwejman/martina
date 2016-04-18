@@ -22,28 +22,20 @@ angular.module('services', [])
 
 })
 
-.filter('first', function () {
+.filter('colon', function () {
 
-  return function (input) {
+  return function (input, number) {
     var output = input.split(': ')
-    return output[0]
+    return output[number]
   }
 
 })
 
-.filter('second', function () {
+.filter('comma', function () {
 
-  return function (input) {
-    var output = input.split(': ')
-    return output[1]
-  }
-
-})
-
-.filter('info', function () {
-
-  return function (input) {
-    return input.split(', ').join(',\ \ ')
+  return function (input, number) {
+    var output = input.split(', ')
+    return output[number]
   }
 
 })
