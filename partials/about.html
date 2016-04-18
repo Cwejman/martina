@@ -35,10 +35,10 @@
         </div>
         <div class="about-table-item" ng-repeat="row in data[3][0].content track by $index" ng-class="{'about-table-item-dark': $index % 2 == 0}">
           <p>
-            {{ row | first }}
+            {{ row | colon:0 }}
           </p>
           <p>
-            {{ row | second }}
+            {{ row | colon:1 }}
           </p>
         </div>
       </div>
@@ -49,10 +49,10 @@
         </div>
         <div class="about-table-item" ng-repeat="row in data[3][2].content track by $index" ng-class="{'about-table-item-dark': $index % 2 == 0}">
           <p>
-            {{ row | first }}
+            {{ row | colon:0 }}
           </p>
           <p>
-            {{ row | second }}
+            {{ row | colon:1 }}
           </p>
         </div>
       </div>
@@ -66,10 +66,10 @@
         </div>
         <div class="about-table-item" ng-repeat="row in data[3][1].content track by $index" ng-class="{'about-table-item-dark': $index % 2 == 0}">
           <p>
-            {{ row | first }}
+            {{ row | colon:0 }}
           </p>
           <p>
-            {{ row | second }}
+            {{ row | colon:1 }}
           </p>
         </div>
       </div>
@@ -82,10 +82,10 @@
         </div>
         <div class="about-table-item" ng-repeat="row in data[3][0].content track by $index" ng-class="{'about-table-item-dark': $index % 2 == 0}">
           <p>
-            {{ row | first }}
+            {{ row | colon:0 }}
           </p>
           <p>
-            {{ row | second }}
+            {{ row | colon:1 }}
           </p>
         </div>
       </div>
