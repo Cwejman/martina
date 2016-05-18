@@ -1,18 +1,22 @@
 [
   {
-    "name": "A giving hand",
+    "name": "A Giving Hand",
     "info": "Collage and acrylics on paper, 20cm x 20cm"
   },
   {
-    "name": "African bird",
+    "name": "African Bird",
     "info": "Acrylics on canvas, 30cm x 30cm"
+  },
+  {
+    "name": "African Tree",
+    "info": ""
   },
   {
     "name": "Balansgång",
     "info": "Acrylics on canvas, 120cm x 80cm"
   },
   {
-    "name": "Birds eye",
+    "name": "Birds Eye",
     "info": "Collage and acrylics on canvas, 70cm x 100cm"
   },
   {
@@ -29,102 +33,286 @@
   },
   {
     "name": "DNA",
-    "info": ""
+    "info": "Acrylics on canvas, 120cm x 80cm"
   },
   {
     "name": "Dreamcastle",
-    "info": ""
+    "info": "Acrylics on canvas, 100cm x 70cm"
   },
   {
     "name": "Drömmarnas skepp",
-    "info": ""
+    "info": "Acrylics on canvas, 120cm x 80cm"
   },
   {
-    "name": "Dynamic mind",
-    "info": ""
+    "name": "Dynamic Mind",
+    "info": "Collage and acrylics on canvas, 80cm x 80cm"
   },
   {
-    "name": "Evolutionary leap",
-    "info": ""
+    "name": "Evolutionary Leap",
+    "info": "Collage and acrylics on canvas, 100cm x 70cm"
   },
   {
     "name": "Flygande färd",
-    "info": ""
+    "info": "Acrylics on canvas, 100cm x 90cm"
   },
   {
-    "name": "Girls portrait",
-    "info": ""
+    "name": "Girls Portrait",
+    "info": "Acrylics on paper, 30cm x 15cm"
   },
   {
-    "name": "In my mind",
-    "info": ""
+    "name": "In my Mind",
+    "info": "Collage and acrylics on canvas, 90cm x 70cm"
   },
   {
-    "name": "In the aquarium",
-    "info": ""
+    "name": "In the Aquarium",
+    "info": "Acrylics on canvas, 90cm x 60cm"
   },
   {
-    "name": "Island bay",
-    "info": ""
+    "name": "Island Bay",
+    "info": "Acrylics on canvas, 100cm x 100cm"
   },
   {
-    "name": "Love is in the air",
-    "info": ""
+    "name": "Love is in the Air",
+    "info": "Collage and acrylics on canvas, 30cm x 20cm"
   },
   {
     "name": "Loveboat",
-    "info": ""
+    "info": "Acrylics on canvas, 80cm x 60cm"
   },
   {
     "name": "Mor och barn",
-    "info": ""
+    "info": "Acrylics on canvas, 120cm x 80cm"
   },
   {
-    "name": "Plastic dress",
-    "info": ""
+    "name": "Plastic Dress",
+    "info": "Oil on canvas, 120cm x 80cm"
   },
   {
-    "name": "River of life",
-    "info": ""
+    "name": "River of Life",
+    "info": "Acrylics on canvas, 120cm x 80cm"
   },
   {
     "name": "Rosa möte",
-    "info": ""
+    "info": "Acrylics on canvas, 100cm x 80cm"
   },
   {
-    "name": "Self portrait",
-    "info": ""
+    "name": "Self Portrait",
+    "info": "Collage and acrylics on canvas, 80cm x 85cm"
   },
   {
     "name": "Sovande dans",
-    "info": ""
+    "info": "Acrylics on canvas, 100cm x 80cm"
   },
   {
-    "name": "Towards the light",
-    "info": ""
+    "name": "Towards the Light",
+    "info": "Collage and acrylics on canvas, 100cm x 70cm"
   },
   {
     "name": "Trinity",
-    "info": ""
+    "info": "Oil on canvas, 80cm x 60cm"
   },
   {
-    "name": "Under protection",
-    "info": ""
+    "name": "Under Protection",
+    "info": "Acrylics on canvas, 80cm x 100cm"
   },
   {
     "name": "Vid vulkansjön",
-    "info": ""
+    "info": "Acrylics on canvas, 120cm x 80cm"
   },
   {
     "name": "Vit fågel",
-    "info": ""
+    "info": "Acrylics on canvas, 50cm x 35cm"
   },
   {
     "name": "Waves",
+    "info": "Acrylics on wall, 100cm x 200cm"
+  },
+  {
+    "name": "You and Me",
+    "info": "Collage and acrylics on canvas, 30cm x 25cm"
+  },
+  {
+    "name": "Argentina",
+    "info": "Acrylics on canvas, 120cm x 120cm"
+  },
+  {
+    "name": "Bevingat par",
+    "info": "Collage and acrylics on canvas, 90cm x 80cm"
+  },
+  {
+    "name": "Birth",
+    "info": "Acrylics on canvas, 60cm x 60cm"
+  },
+  {
+    "name": "Blue Mind",
+    "info": "Acrylics on canvas, 15cm x 15cm"
+  },
+  {
+    "name": "Blue Sense",
+    "info": "Acrylics on canvas, 60cm x 60cm"
+  },
+  {
+    "name": "Bodyscan",
+    "info": "Collage and acrylics on canvas, 120cm x 60cm"
+  },
+  {
+    "name": "By The Fire",
+    "info": "Acrylics on canvas, 120cm x 80cm"
+  },
+  {
+    "name": "Communication",
+    "info": "Acrylics on canvas, 80cm x 100cm"
+  },
+  {
+    "name": "Contact",
+    "info": "Acrylics on canvas, 60cm x 120cm"
+  },
+  {
+    "name": "Dancing Couple",
+    "info": "Acrylics on canvas, 60cm x 80cm"
+  },
+  {
+    "name": "Elinor",
+    "info": "Mixed media, 90cm x 80cm"
+  },
+  {
+    "name": "En fallen ängel",
+    "info": "Acrylics on canvas, 180cm x 50cm"
+  },
+  {
+    "name": "Enclosure",
+    "info": "Oil on canvas, 120cm x 80cm"
+  },
+  {
+    "name": "Flytande pojkar",
+    "info": "Acrylics on canvas, 150cm x 100cm"
+  },
+  {
+    "name": "Friends",
+    "info": "Acrylics on canvas, 75cm x 60cm"
+  },
+  {
+    "name": "Frozen Lake",
+    "info": "Acrylics on canvas, 100cm x 100cm"
+  },
+  {
+    "name": "Golden Forest",
+    "info": "Mixed media, 90cm x 80cm"
+  },
+  {
+    "name": "Headache",
+    "info": "Acrylics on canvas, 75cm x 60cm"
+  },
+  {
+    "name": "Held by Nature",
+    "info": "Acrylics on canvas, 100cm x 90cm"
+  },
+  {
+    "name": "Höstdrömmar",
+    "info": "Acrylics on canvas, 150cm x 90cm"
+  },
+  {
+    "name": "In Bed",
+    "info": "Oil on canvas, 85cm x 100cm"
+  },
+  {
+    "name": "In the City",
+    "info": "Acrylics on canvas, 100cm x 70cm"
+  },
+  {
+    "name": "In the Tree",
+    "info": "Acrylics on canvas, 75cm x 60cm"
+  },
+  {
+    "name": "In the Water",
+    "info": "Mixed media and acrylics on canvas, 120xm x 80cm"
+  },
+  {
+    "name": "Inanna",
+    "info": "Acrylics on canvas, 120cm x 80cm"
+  },
+  {
+    "name": "Kim",
+    "info": "Acrylics on canvas, 70 x 60cm"
+  },
+  {
+    "name": "Kvinnor",
     "info": ""
   },
   {
-    "name": "You and me",
-    "info": ""
+    "name": "Lars",
+    "info": "Acrylics on canvas, 90cm x 80cm"
+  },
+  {
+    "name": "Lovers",
+    "info": "Collage and acrylics on canvas, 130cm x 80cm"
+  },
+  {
+    "name": "Magical Moment",
+    "info": "Mixed media and acrylics on canvas, 130cm x 80cm"
+  },
+  {
+    "name": "Moonmeeting",
+    "info": "Acrylics on canvas, 120cm x 80 cm"
+  },
+  {
+    "name": "Nature Boy",
+    "info": "Acrylics on canvas, 100cm x 100cm"
+  },
+  {
+    "name": "On the Beach",
+    "info": "Oil on wood, 250cm x 220cm"
+  },
+  {
+    "name": "Pino och Lota",
+    "info": "Acrylics on canvas, 60cm x 80cm"
+  },
+  {
+    "name": "Praying Woman",
+    "info": "Collage and acrylics on canvas, 20cm x 30cm"
+  },
+  {
+    "name": "Quiet Mind",
+    "info": "Acrylics on canvas, 90cm x 70cm"
+  },
+  {
+    "name": "Red Bird",
+    "info": "Acrylics on canvas, 90cm x 80cm"
+  },
+  {
+    "name": "Rejoice",
+    "info": "Acrylics on canvas, 150cm x 90cm"
+  },
+  {
+    "name": "Relative Relatives",
+    "info": "Acrylics on canvas, 120cm x 80cm"
+  },
+  {
+    "name": "Röda Sten",
+    "info": "Acrylics on canvas, 90cm x 80cm"
+  },
+  {
+    "name": "Selfportrait",
+    "info": "Acrylics on canvas, 60cm x 80cm"
+  },
+  {
+    "name": "The Kiss",
+    "info": "Acrylics on paper, 10cm x 20cm"
+  },
+  {
+    "name": "The Phonecall",
+    "info": "Acrylics on canvas, 60cm x 80cm"
+  },
+  {
+    "name": "Tree and Duck",
+    "info": "Acrylics on canvas, 120cm x 80cm"
+  },
+  {
+    "name": "Uppochnerpåvänt öde",
+    "info": "Acrylics on paper, 90cm x 80cm"
+  },
+  {
+    "name": "Vägen till havet",
+    "info": "Acrylics on canvas, 85cm x 70cm"
   }
 ]
