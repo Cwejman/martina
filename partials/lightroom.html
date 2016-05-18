@@ -1,7 +1,9 @@
 <div class="lightroom-backdrop exeption">
-  <div class="center">
+  <div class="lightroom-center">
     <div class="lightroom-image" ng-style="{'background-image': 'url(data/gallery/{{ current | file }}.jpg)'}"></div>
-    <h2 ng-if="data.name.length > 0">{{ data.name }}</h2>
-    <p ng-if="data.info.length > 0">{{ data.info | comma: 0 }},&nbsp; {{ data.info | comma: 1 }}</p>
+    <div class="lightroom-info">
+      <h2 ng-if="data.name.length > 0">{{ data.name }}</h2>
+      <p ng-if="data.info.length > 0">{{ data.info | comma: 0 }},&nbsp; {{ data.info | comma: 1 }}</p>
+    </div>
   </div>
 </div>

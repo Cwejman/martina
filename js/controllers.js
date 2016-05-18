@@ -10,9 +10,27 @@ angular.module('controllers', [])
 .controller('LightroomCtrl', function ($scope, $stateParams, json) {
 
   $scope.current = $stateParams.image
-  $scope.data = json.data.find(function (image) {
+  $scope.data = json.data.find(function (image, i) {
+    index = i
     return image.name == $stateParams.image
   })
+
+})
+
+.controller('LightroomnavCtrl', function ($scope, $stateParams, json) {
+
+  var index = 0
+
+  $scope.current = $stateParams.image
+  $scope.data = json.data.find(function (image, i) {
+    index = i
+    return image.name == $stateParams.image
+  })
+
+  if (index >= json.data.length-1) $scope.after = json.data[0]
+  else $scope.after = json.data[index + 1]
+  if (index == 0) $scope.before = json.data[json.data.length - 1]
+  else $scope.before = json.data[index - 1]
 
 })
 

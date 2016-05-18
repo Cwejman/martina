@@ -65,7 +65,14 @@ angular.module('martina', ['ui.router', 'controllers', 'services'])
     views: {
       'nav': {
         templateUrl: 'partials/lightroomNav.html',
-        controller: 'NavCtrl'
+        controller: 'LightroomnavCtrl',
+        resolve: {
+          json: ["$http", function ($http) {
+            return $http({url: "data/gallery.json"}).success(function (data) {
+              return data
+            })
+          }]
+        }
       },
       'content': {
         templateUrl: 'partials/lightroom.html',

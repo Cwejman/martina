@@ -1,3 +1,5 @@
+<!DOCTYPE html>
+
 <div class="nav-container lightroom-nav">
   <div class="nav-name">
     <div class="bold lightroom-nav">MARTINA&nbsp;</div>
@@ -5,6 +7,10 @@
   </div>
 
   <div class="nav-menu">
+    <i class="ion-ios-arrow-back" ui-sref="lightroom({'image': before.name})"></i>
+    <div class="lightroom-space"></div>
+    <i class="ion-ios-arrow-forward" ui-sref="lightroom({'image': after.name})"></i>
+    <div class="lightroom-space"></div>
     <i class="ion-android-close" ui-sref="gallery"></i>
   </div>
 
