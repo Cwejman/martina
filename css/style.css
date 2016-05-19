@@ -207,8 +207,18 @@ h2 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
-  display: flex;
-  width: 100%;
+  display: flex !important;
+  /*width: 100%;*/
+  /*flex: 1;*/
+}
+
+.about-first {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex !important;
+  /*width: 100%;*/
+  /*flex: 1;*/
 }
 
 .about-tables {
