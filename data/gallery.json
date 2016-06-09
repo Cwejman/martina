@@ -1,5 +1,29 @@
 [
   {
+    "name": "Flytande pojkar",
+    "info": "Acrylics on canvas, 150cm x 100cm, 2015"
+  },
+  {
+    "name": "Frozen Lake",
+    "info": "Acrylics on canvas, 100cm x 100cm"
+  },
+  {
+    "name": "Höstdrömmar",
+    "info": "Acrylics on canvas, 150cm x 90cm"
+  },
+  {
+    "name": "Nature Boy",
+    "info": "Acrylics on canvas, 100cm x 100cm"
+  },
+  {
+    "name": "Held by Nature",
+    "info": "Acrylics on canvas, 100cm x 90cm"
+  },
+  {
+    "name": "In the Tree",
+    "info": "Acrylics on canvas, 75cm x 60cm"
+  },
+  {
     "name": "Vägen till havet",
     "info": "Acrylics on canvas, 85cm x 70cm"
   },
@@ -18,10 +42,6 @@
   {
     "name": "Blå tid",
     "info": "Acrylics on canvas, 100cm x 60cm"
-  },
-  {
-    "name": "Nature Boy",
-    "info": "Acrylics on canvas, 100cm x 100cm"
   },
   {
     "name": "Bland husen",
@@ -180,16 +200,8 @@
     "info": "Oil on canvas, 120cm x 80cm"
   },
   {
-    "name": "Flytande pojkar",
-    "info": "Acrylics on canvas, 150cm x 100cm, 2015"
-  },
-  {
     "name": "Friends",
     "info": "Acrylics on canvas, 75cm x 60cm"
-  },
-  {
-    "name": "Frozen Lake",
-    "info": "Acrylics on canvas, 100cm x 100cm"
   },
   {
     "name": "Golden Forest",
@@ -200,24 +212,12 @@
     "info": "Acrylics on canvas, 75cm x 60cm"
   },
   {
-    "name": "Held by Nature",
-    "info": "Acrylics on canvas, 100cm x 90cm"
-  },
-  {
-    "name": "Höstdrömmar",
-    "info": "Acrylics on canvas, 150cm x 90cm"
-  },
-  {
     "name": "In Bed",
     "info": "Oil on canvas, 85cm x 100cm"
   },
   {
     "name": "In the City",
     "info": "Acrylics on canvas, 100cm x 70cm"
-  },
-  {
-    "name": "In the Tree",
-    "info": "Acrylics on canvas, 75cm x 60cm"
   },
   {
     "name": "In the Water",
