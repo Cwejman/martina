@@ -1,9 +1,5 @@
 [
   {
-    "name": "A Giving Hand",
-    "info": "Collage and acrylics on paper, 20cm x 20cm"
-  },
-  {
     "name": "African Bird",
     "info": "Acrylics on canvas, 30cm x 30cm"
   },
@@ -318,5 +314,9 @@
   {
     "name": "Vägen till havet",
     "info": "Acrylics on canvas, 85cm x 70cm"
+  },
+  {
+    "name": "A Giving Hand",
+    "info": "Collage and acrylics on paper, 20cm x 20cm"
   }
 ]
