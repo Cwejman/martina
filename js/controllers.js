@@ -37,7 +37,7 @@ angular.module('controllers', [])
 .controller('GalleryCtrl', function ($scope, json, responsive) {
 
   var data = json.data
-  var width = 260
+  var width = 270
   var max = 5
   var resizeTimer
 
