@@ -1,7 +1,11 @@
 [
   {
+    "name": "Vägen till havet",
+    "info": "Acrylics on canvas, 85cm x 70cm"
+  },
+  {
     "name": "African Tree",
-    "info": ""
+    "info": "Acrylics on canvas, 120cm x 70cm"
   },
   {
     "name": "Balansgång",
@@ -14,6 +18,10 @@
   {
     "name": "Blå tid",
     "info": "Acrylics on canvas, 100cm x 60cm"
+  },
+  {
+    "name": "Nature Boy",
+    "info": "Acrylics on canvas, 100cm x 100cm"
   },
   {
     "name": "Bland husen",
@@ -247,10 +255,7 @@
     "name": "Moonmeeting",
     "info": "Acrylics on canvas, 120cm x 80 cm"
   },
-  {
-    "name": "Nature Boy",
-    "info": "Acrylics on canvas, 100cm x 100cm"
-  },
+  
   {
     "name": "On the Beach",
     "info": "Oil on wood, 250cm x 220cm"
@@ -306,10 +311,6 @@
   {
     "name": "Vid vassen",
     "info": "Acrylics on canvas, 90cm x 80cm"
-  },
-  {
-    "name": "Vägen till havet",
-    "info": "Acrylics on canvas, 85cm x 70cm"
   },
   {
     "name": "A Giving Hand",
