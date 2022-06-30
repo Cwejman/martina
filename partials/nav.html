@@ -1,24 +1,80 @@
 <div class="nav-container">
-  <div class="nav-name">
-    <div class="bold">MARTINA&nbsp;</div>
-    <div class="thin">JAKOBSSON</div>
+  <div class="nav-header">
+    <div class="nav-name">
+      <div class="bold">MARTINA&nbsp;</div>
+      <div class="thin">JAKOBSSON</div>
+    </div>
+
+    <div class="nav-menu big">
+      <div
+        class="nav-btn thin"
+        ng-class="{'bold': state == 'gallery'}"
+        ui-sref="gallery"
+      >
+        GALLERY
+      </div>
+      <div class="nav-btn gray">&nbsp;|&nbsp;</div>
+      <div
+        class="nav-btn thin"
+        ng-class="{'bold': state == 'movies'}"
+        ui-sref="movies"
+      >
+        MOVIES
+      </div>
+      <div class="nav-btn gray">&nbsp;|&nbsp;</div>
+      <div
+        class="nav-btn thin"
+        ng-class="{'bold': state == 'about'}"
+        ui-sref="about"
+      >
+        ABOUT
+      </div>
+      <div class="nav-btn gray">&nbsp;|&nbsp;</div>
+      <div
+        class="nav-btn thin"
+        ng-class="{'bold': state == 'contact'}"
+        ui-sref="contact"
+      >
+        CONTACT
+      </div>
+    </div>
+
+    <div class="nav-menu small">
+      <i
+        ng-class="{'ion-navicon': !mobile, 'ion-android-close': mobile}"
+        ng-click="mobile = !mobile"
+      ></i>
+    </div>
   </div>
 
-  <div class="nav-menu big">
-    <div class="nav-btn thin" ng-class="{'bold': state == 'gallery'}" ui-sref="gallery">GALLERY</div>
-    <div class="nav-btn gray">&nbsp;|&nbsp;</div>
-    <div class="nav-btn thin"ng-class="{'bold': state == 'about'}" ui-sref="about">ABOUT</div>
-    <div class="nav-btn gray">&nbsp;|&nbsp;</div>
-    <div class="nav-btn thin"ng-class="{'bold': state == 'contact'}" ui-sref="contact">CONTACT</div>
+  <div class="nav-menu-mobile" ng-if="mobile">
+    <div
+      class="nav-btn thin"
+      ng-class="{'bold': state == 'gallery'}"
+      ui-sref="gallery"
+    >
+      GALLERY
+    </div>
+    <div
+      class="nav-btn thin"
+      ng-class="{'bold': state == 'movies'}"
+      ui-sref="movies"
+    >
+      MOVIES
+    </div>
+    <div
+      class="nav-btn thin"
+      ng-class="{'bold': state == 'about'}"
+      ui-sref="about"
+    >
+      ABOUT
+    </div>
+    <div
+      class="nav-btn thin"
+      ng-class="{'bold': state == 'contact'}"
+      ui-sref="contact"
+    >
+      CONTACT
+    </div>
   </div>
-  <div class="nav-menu small">
-    <i ng-class="{'ion-navicon': !mobile, 'ion-android-close': mobile}" ng-click="mobile = !mobile"></i>
-  </div>
-
-</div>
-
-<div class="nav-menu-mobile" ng-if="mobile">
-  <div class="nav-btn thin" ng-class="{'bold': state == 'gallery'}" ui-sref="gallery">GALLERY</div>
-  <div class="nav-btn thin" ng-class="{'bold': state == 'about'}" ui-sref="about">ABOUT</div>
-  <div class="nav-btn thin" ng-class="{'bold': state == 'contact'}" ui-sref="contact">CONTACT</div>
 </div>

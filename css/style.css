@@ -30,7 +30,6 @@ h2 {
   text-align: center;
 }
 
-
 @media only screen and (max-width: 700px) {
   .big {
     display: none !important;
@@ -52,6 +51,20 @@ h2 {
     width: calc((100% - 40px) / 2);
   }
 }
+
+[ui-view*="content"] {
+  z-index: -2;
+}
+
+/* @media only screen and (min-width: 1300px) { */
+/*   .movies > div { */
+/*     width: calc(50% - 20px); */
+/*     padding-bottom: calc((50% - 20px) * 9 / 16); */
+/*   } */
+/*   .movies > div:nth-child(odd) { */
+/*     margin-right: 20px; */
+/*   } */
+/* } */
 
 @media only screen and (min-width: 700px) {
   .small {
@@ -106,11 +119,16 @@ h2 {
 }
 
 .nav-container {
-  height: 50px;
-  width: 100%;
+  z-index: 2;
   position: fixed;
+  width: 100%;
   top: 0;
   left: 0;
+}
+  
+.nav-header {
+  height: 50px;
+  width: 100%;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -126,7 +144,7 @@ h2 {
   background: #fafafa;
 }
 
-.nav-container div {
+.nav-header div {
   letter-spacing: 2px;
   display: -webkit-box;
   display: -webkit-flex;
@@ -178,6 +196,7 @@ h2 {
   width: 100%;
   margin-bottom: 20px;
   background: rgb(208, 208, 208);
+  cursor: pointer;
 }
 
 .about {
@@ -361,4 +380,27 @@ h2 {
 
 .contact > p {
   margin: 5px 0;
+}
+
+.movies {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.movies > div {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.movies iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.movies > div {
+  width: calc(100% - 20px);
+  padding-bottom: calc((100% - 20px) * 9 / 16);
 }
