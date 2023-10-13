@@ -1,5 +1,13 @@
 [
   {
+    "name": "Stormy Waters",
+    "info": "Acrylics on canvas, 100cm x 145cm"
+  },
+  {
+    "name": "De Älskande",
+    "info": "Acrylics on canvas, 100cm x 96cm"
+  },
+  {
     "name": "Ljuset i tunneln",
     "info": "Acrylics on canvas, 75cm x 105cm"
   },
@@ -120,19 +128,7 @@
     "info": "Collage and acrylics on canvas, 70cm x 100cm"
   },
   {
-    "name": "Blå tid",
-    "info": "Acrylics on canvas, 100cm x 60cm"
-  },
-  {
     "name": "Bland husen",
-    "info": "Acrylics on canvas, 120cm x 80cm"
-  },
-  {
-    "name": "De androgyna",
-    "info": "Acrylics on canvas, 60cm x 40cm"
-  },
-  {
-    "name": "DNA",
     "info": "Acrylics on canvas, 120cm x 80cm"
   },
   {
@@ -148,40 +144,16 @@
     "info": "Collage and acrylics on canvas, 80cm x 80cm"
   },
   {
-    "name": "Evolutionary Leap",
-    "info": "Collage and acrylics on canvas, 100cm x 70cm"
-  },
-  {
     "name": "Flygande färd",
     "info": "Acrylics on canvas, 100cm x 90cm"
-  },
-  {
-    "name": "Girls Portrait",
-    "info": "Acrylics on paper, 30cm x 15cm"
-  },
-  {
-    "name": "In my Mind",
-    "info": "Collage and acrylics on canvas, 90cm x 70cm"
-  },
-  {
-    "name": "In the Aquarium",
-    "info": "Acrylics on canvas, 90cm x 60cm"
   },
   {
     "name": "Island Bay",
     "info": "Acrylics on canvas, 100cm x 100cm"
   },
   {
-    "name": "Love is in the Air",
-    "info": "Collage and acrylics on canvas, 30cm x 20cm"
-  },
-  {
     "name": "Loveboat",
     "info": "Acrylics on canvas, 80cm x 60cm"
-  },
-  {
-    "name": "Mor och barn",
-    "info": "Acrylics on canvas, 120cm x 80cm"
   },
   {
     "name": "Plastic Dress",
@@ -196,20 +168,12 @@
     "info": "Acrylics on canvas, 100cm x 80cm"
   },
   {
-    "name": "Self Portrait",
-    "info": "Collage and acrylics on canvas, 80cm x 85cm"
-  },
-  {
     "name": "Sovande dans",
     "info": "Acrylics on canvas, 100cm x 80cm"
   },
   {
     "name": "Towards the Light",
     "info": "Collage and acrylics on canvas, 100cm x 70cm"
-  },
-  {
-    "name": "Trinity",
-    "info": "Oil on canvas, 80cm x 60cm"
   },
   {
     "name": "Under Protection",
@@ -228,16 +192,8 @@
     "info": "Acrylics on wall, 100cm x 200cm"
   },
   {
-    "name": "You and Me",
-    "info": "Collage and acrylics on canvas, 30cm x 25cm"
-  },
-  {
     "name": "Argentina",
     "info": "Acrylics on canvas, 120cm x 120cm"
-  },
-  {
-    "name": "Bevingat par",
-    "info": "Collage and acrylics on canvas, 90cm x 80cm"
   },
   {
     "name": "Birth",
@@ -256,16 +212,8 @@
     "info": "Acrylics on canvas, 120cm x 80cm"
   },
   {
-    "name": "Communication",
-    "info": "Acrylics on canvas, 80cm x 100cm"
-  },
-  {
     "name": "Contact",
     "info": "Acrylics on canvas, 60cm x 120cm"
-  },
-  {
-    "name": "Dancing Couple",
-    "info": "Acrylics on canvas, 60cm x 80cm"
   },
   {
     "name": "Elinor",
@@ -286,14 +234,6 @@
   {
     "name": "Golden Forest",
     "info": "Mixed media, 90cm x 80cm"
-  },
-  {
-    "name": "Headache",
-    "info": "Acrylics on canvas, 75cm x 60cm"
-  },
-  {
-    "name": "In Bed",
-    "info": "Oil on canvas, 85cm x 100cm"
   },
   {
     "name": "In the City",
@@ -328,21 +268,8 @@
     "info": "Mixed media and acrylics on canvas, 130cm x 80cm"
   },
   {
-    "name": "Moonmeeting",
-    "info": "Acrylics on canvas, 120cm x 80 cm"
-  },
-
-  {
-    "name": "On the Beach",
-    "info": "Oil on wood, 250cm x 220cm"
-  },
-  {
     "name": "Pino och Lota",
     "info": "Acrylics on canvas, 60cm x 80cm"
-  },
-  {
-    "name": "Praying Woman",
-    "info": "Collage and acrylics on canvas, 20cm x 30cm"
   },
   {
     "name": "Quiet Mind",
@@ -357,10 +284,6 @@
     "info": "Acrylics on canvas, 150cm x 90cm"
   },
   {
-    "name": "Relative Relatives",
-    "info": "Acrylics on canvas, 120cm x 80cm"
-  },
-  {
     "name": "Röda Sten",
     "info": "Acrylics on canvas, 90cm x 80cm"
   },
@@ -369,27 +292,11 @@
     "info": "Acrylics on canvas, 60cm x 80cm"
   },
   {
-    "name": "The Kiss",
-    "info": "Acrylics on paper, 10cm x 20cm"
-  },
-  {
     "name": "The Phonecall",
     "info": "Acrylics on canvas, 60cm x 80cm"
   },
   {
     "name": "Tree and Duck",
     "info": "Acrylics on canvas, 120cm x 80cm"
-  },
-  {
-    "name": "Uppochnerpåvänt öde",
-    "info": "Acrylics on paper, 90cm x 80cm"
-  },
-  {
-    "name": "Vid vassen",
-    "info": "Acrylics on canvas, 90cm x 80cm"
-  },
-  {
-    "name": "A Giving Hand",
-    "info": "Collage and acrylics on paper, 20cm x 20cm"
   }
 ]
