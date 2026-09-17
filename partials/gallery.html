@@ -1,7 +1,7 @@
 <div class="">
 
   <div class="gallery-columns" ng-repeat="i in columns() track by $index">
-    <img class="gallery-artwork" ng-repeat="artwork in chunk($index, resolution)" ui-sref="lightroom({'image': artwork.name})" ng-src="data/gallery/{{ artwork.name | file }}.jpg">
+    <img class="gallery-artwork" ng-repeat="artwork in chunk($index, resolution)" ui-sref="lightroom({'image': artwork.name})" ng-src="data/thumbs/{{ artwork.name | file }}.webp" ng-attr-width="{{ artwork.width }}" ng-attr-height="{{ artwork.height }}" loading="lazy" decoding="async" alt="{{ artwork.name }}">
   </div>
 
 </div>

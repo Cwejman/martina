@@ -194,6 +194,9 @@ h2 {
   -webkit-transition: 1s;
   transition: 1s;
   width: 100%;
+  /* with the width/height attributes set, this keeps the aspect ratio while
+     still reserving the right height before the image loads */
+  height: auto;
   margin-bottom: 20px;
   background: rgb(208, 208, 208);
   cursor: pointer;

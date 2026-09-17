@@ -5,7 +5,7 @@
   <div class="about-images">
     <div class="about-first" id="s0">
       <div class="about-image" id="s00" ng-style="{
-        'background-image': 'url(data/about/{{ data[0][0]['name'] | file }}.jpg)',
+        'background-image': 'url(data/about/{{ data[0][0]['name'] | file }}.webp)',
         'height': sizes['s00'][0] + 'px',
         'width': sizes['s00'][1] + 'px'
       }"></div>
@@ -13,7 +13,7 @@
 
     <div class="about-second" id="s1">
       <div class="about-image" id="s1{{ $index }}" done="response" ng-repeat="i in arrayify(data[1].length) track by $index" ng-style="{
-        'background-image': 'url(data/about/{{ data[1][$index]['name'] | file }}.jpg)',
+        'background-image': 'url(data/about/{{ data[1][$index]['name'] | file }}.webp)',
         'height': sizes['s1'+$index][0] + 'px',
         'width': sizes['s1'+$index][1] + 'px'
       }"></div>

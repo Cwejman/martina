@@ -1,346 +1,518 @@
 [
   {
     "name": "Förgänglighetens sång",
-    "info": "Acrylics on canvas, 98cm x 95cm"
+    "info": "Acrylics on canvas, 98cm x 95cm",
+    "width": 579,
+    "height": 600
   },
   {
     "name": "Försoning",
-    "info": "Acrylics on canvas, 98cm x 92cm"
+    "info": "Acrylics on canvas, 98cm x 92cm",
+    "width": 590,
+    "height": 600
   },
   {
     "name": "Dans på Brännö brygga",
-    "info": "Acrylics on canvas, 100cm x 98cm"
+    "info": "Acrylics on canvas, 100cm x 98cm",
+    "width": 593,
+    "height": 600
   },
   {
     "name": "Göteborgsvy",
-    "info": "Acrylics on canvas, 80cm x 50cm"
+    "info": "Acrylics on canvas, 80cm x 50cm",
+    "width": 398,
+    "height": 600
   },
   {
     "name": "Into the Unknown",
-    "info": "Acrylics on canvas, 100cm x 150cm"
+    "info": "Acrylics on canvas, 100cm x 150cm",
+    "width": 600,
+    "height": 489
   },
   {
     "name": "Mont Pele",
-    "info": "Acrylics on canvas, 100cm x 150cm"
+    "info": "Acrylics on canvas, 100cm x 150cm",
+    "width": 600,
+    "height": 371
   },
   {
     "name": "Oceangirl",
-    "info": "Acrylics on canvas, 100cm x 80cm"
+    "info": "Acrylics on canvas, 100cm x 80cm",
+    "width": 473,
+    "height": 600
   },
   {
     "name": "Peacewalk",
-    "info": "Acrylics on canvas, 70cm x 67cm"
+    "info": "Acrylics on canvas, 70cm x 67cm",
+    "width": 551,
+    "height": 600
   },
   {
     "name": "Sol över Sidikauki",
-    "info": "Acrylics on canvas, 100cm x 99cm"
+    "info": "Acrylics on canvas, 100cm x 99cm",
+    "width": 566,
+    "height": 600
   },
   {
     "name": "The Gathering",
-    "info": "Acrylics on canvas, 72cm x 82cm"
+    "info": "Acrylics on canvas, 72cm x 82cm",
+    "width": 600,
+    "height": 530
   },
   {
     "name": "Vårkänsla",
-    "info": "Acrylics on canvas, 100cm x 90cm"
+    "info": "Acrylics on canvas, 100cm x 90cm",
+    "width": 455,
+    "height": 600
   },
   {
     "name": "Stormy Waters",
-    "info": "Acrylics on canvas, 100cm x 145cm"
+    "info": "Acrylics on canvas, 100cm x 145cm",
+    "width": 600,
+    "height": 416
   },
   {
     "name": "De Älskande",
-    "info": "Acrylics on canvas, 100cm x 96cm"
+    "info": "Acrylics on canvas, 100cm x 96cm",
+    "width": 597,
+    "height": 600
   },
   {
     "name": "Ljuset i tunneln",
-    "info": "Acrylics on canvas, 75cm x 105cm"
+    "info": "Acrylics on canvas, 75cm x 105cm",
+    "width": 600,
+    "height": 439
   },
   {
     "name": "Sensommarblomster",
-    "info": "Acrylics on canvas, 120cm x 100cm"
+    "info": "Acrylics on canvas, 120cm x 100cm",
+    "width": 497,
+    "height": 600
   },
   {
     "name": "Dogwalk",
-    "info": "Acrylics on canvas, 75cm x 67cm"
+    "info": "Acrylics on canvas, 75cm x 67cm",
+    "width": 498,
+    "height": 600
   },
   {
     "name": "Earthprayer",
-    "info": "Acrylics on canvas, 110cm x 120cm"
+    "info": "Acrylics on canvas, 110cm x 120cm",
+    "width": 570,
+    "height": 569
   },
   {
     "name": "Forestreflection",
-    "info": "Acrylics on canvas, 70cm x 75cm"
+    "info": "Acrylics on canvas, 70cm x 75cm",
+    "width": 515,
+    "height": 600
   },
   {
     "name": "Fågel Fenix",
-    "info": "Acrylics on canvas, 70cm x 75cm"
+    "info": "Acrylics on canvas, 70cm x 75cm",
+    "width": 481,
+    "height": 600
   },
   {
     "name": "Galterö",
-    "info": "30cm x 30cm"
+    "info": "30cm x 30cm",
+    "width": 600,
+    "height": 596
   },
   {
     "name": "Homecoming",
-    "info": "100cm x 95cm"
+    "info": "100cm x 95cm",
+    "width": 600,
+    "height": 495
   },
   {
     "name": "Kärlekshänder",
-    "info": "60cm x 60cm"
+    "info": "60cm x 60cm",
+    "width": 463,
+    "height": 430
   },
   {
     "name": "Lönndalsviken",
-    "info": "110cm x 100cm"
+    "info": "110cm x 100cm",
+    "width": 600,
+    "height": 489
   },
   {
     "name": "Monserrat",
-    "info": "75cm x 80cm"
+    "info": "75cm x 80cm",
+    "width": 523,
+    "height": 600
   },
   {
     "name": "Peace dove",
-    "info": "A4"
+    "info": "A4",
+    "width": 450,
+    "height": 600
   },
   {
     "name": "Profiles",
-    "info": "75cm x 65cm"
+    "info": "75cm x 65cm",
+    "width": 600,
+    "height": 518
   },
   {
     "name": "Red Flowers",
-    "info": "110cm x 90cm"
+    "info": "110cm x 90cm",
+    "width": 532,
+    "height": 600
   },
   {
     "name": "Sitges",
-    "info": "110cm x 90cm"
+    "info": "110cm x 90cm",
+    "width": 566,
+    "height": 600
   },
   {
     "name": "Skymmning i Rödsten",
-    "info": "100cm x 65cm"
+    "info": "100cm x 65cm",
+    "width": 437,
+    "height": 600
   },
   {
     "name": "Surt sade räven om Rönnbären",
-    "info": "100cm x 90cm"
+    "info": "100cm x 90cm",
+    "width": 489,
+    "height": 600
   },
   {
     "name": "Vinterfrö",
-    "info": "60cm x 110cm"
+    "info": "60cm x 110cm",
+    "width": 600,
+    "height": 409
   },
   {
     "name": "Vårfågel",
-    "info": "95cm x 80cm"
+    "info": "95cm x 80cm",
+    "width": 516,
+    "height": 600
   },
   {
     "name": "Walkabout",
-    "info": "110cm x 120cm"
+    "info": "110cm x 120cm",
+    "width": 600,
+    "height": 525
   },
   {
     "name": "Flytande pojkar",
-    "info": "Acrylics on canvas, 150cm x 100cm, 2015"
+    "info": "Acrylics on canvas, 150cm x 100cm, 2015",
+    "width": 600,
+    "height": 461
   },
   {
     "name": "Frozen Lake",
-    "info": "Acrylics on canvas, 100cm x 100cm"
+    "info": "Acrylics on canvas, 100cm x 100cm",
+    "width": 600,
+    "height": 590
   },
   {
     "name": "Höstdrömmar",
-    "info": "Acrylics on canvas, 150cm x 90cm"
+    "info": "Acrylics on canvas, 150cm x 90cm",
+    "width": 385,
+    "height": 600
   },
   {
     "name": "Nature Boy",
-    "info": "Acrylics on canvas, 100cm x 100cm"
+    "info": "Acrylics on canvas, 100cm x 100cm",
+    "width": 594,
+    "height": 600
   },
   {
     "name": "Held by Nature",
-    "info": "Acrylics on canvas, 100cm x 90cm"
+    "info": "Acrylics on canvas, 100cm x 90cm",
+    "width": 600,
+    "height": 577
   },
   {
     "name": "In the Tree",
-    "info": "Acrylics on canvas, 75cm x 60cm"
+    "info": "Acrylics on canvas, 75cm x 60cm",
+    "width": 331,
+    "height": 467
   },
   {
     "name": "Vägen till havet",
-    "info": "Acrylics on canvas, 85cm x 70cm"
+    "info": "Acrylics on canvas, 85cm x 70cm",
+    "width": 529,
+    "height": 600
   },
   {
     "name": "African Tree",
-    "info": "Acrylics on canvas, 120cm x 70cm"
+    "info": "Acrylics on canvas, 120cm x 70cm",
+    "width": 600,
+    "height": 450
   },
   {
     "name": "Balansgång",
-    "info": "Acrylics on canvas, 120cm x 80cm"
+    "info": "Acrylics on canvas, 120cm x 80cm",
+    "width": 363,
+    "height": 467
   },
   {
     "name": "Birds Eye",
-    "info": "Collage and acrylics on canvas, 70cm x 100cm"
+    "info": "Collage and acrylics on canvas, 70cm x 100cm",
+    "width": 594,
+    "height": 467
   },
   {
     "name": "Bland husen",
-    "info": "Acrylics on canvas, 120cm x 80cm"
+    "info": "Acrylics on canvas, 120cm x 80cm",
+    "width": 441,
+    "height": 467
   },
   {
     "name": "Dreamcastle",
-    "info": "Acrylics on canvas, 100cm x 70cm"
+    "info": "Acrylics on canvas, 100cm x 70cm",
+    "width": 355,
+    "height": 467
   },
   {
     "name": "Drömmarnas skepp",
-    "info": "Acrylics on canvas, 120cm x 80cm"
+    "info": "Acrylics on canvas, 120cm x 80cm",
+    "width": 289,
+    "height": 467
   },
   {
     "name": "Dynamic Mind",
-    "info": "Collage and acrylics on canvas, 80cm x 80cm"
+    "info": "Collage and acrylics on canvas, 80cm x 80cm",
+    "width": 478,
+    "height": 467
   },
   {
     "name": "Flygande färd",
-    "info": "Acrylics on canvas, 100cm x 90cm"
+    "info": "Acrylics on canvas, 100cm x 90cm",
+    "width": 414,
+    "height": 465
   },
   {
     "name": "Island Bay",
-    "info": "Acrylics on canvas, 100cm x 100cm"
+    "info": "Acrylics on canvas, 100cm x 100cm",
+    "width": 443,
+    "height": 467
   },
   {
     "name": "Loveboat",
-    "info": "Acrylics on canvas, 80cm x 60cm"
+    "info": "Acrylics on canvas, 80cm x 60cm",
+    "width": 321,
+    "height": 467
   },
   {
     "name": "Plastic Dress",
-    "info": "Oil on canvas, 120cm x 80cm"
+    "info": "Oil on canvas, 120cm x 80cm",
+    "width": 323,
+    "height": 466
   },
   {
     "name": "River of Life",
-    "info": "Acrylics on canvas, 120cm x 80cm"
+    "info": "Acrylics on canvas, 120cm x 80cm",
+    "width": 334,
+    "height": 467
   },
   {
     "name": "Rosa möte",
-    "info": "Acrylics on canvas, 100cm x 80cm"
+    "info": "Acrylics on canvas, 100cm x 80cm",
+    "width": 295,
+    "height": 504
   },
   {
     "name": "Sovande dans",
-    "info": "Acrylics on canvas, 100cm x 80cm"
+    "info": "Acrylics on canvas, 100cm x 80cm",
+    "width": 600,
+    "height": 392
   },
   {
     "name": "Towards the Light",
-    "info": "Collage and acrylics on canvas, 100cm x 70cm"
+    "info": "Collage and acrylics on canvas, 100cm x 70cm",
+    "width": 600,
+    "height": 462
   },
   {
     "name": "Under Protection",
-    "info": "Acrylics on canvas, 80cm x 100cm"
+    "info": "Acrylics on canvas, 80cm x 100cm",
+    "width": 600,
+    "height": 383
   },
   {
     "name": "Vid vulkansjön",
-    "info": "Acrylics on canvas, 120cm x 80cm"
+    "info": "Acrylics on canvas, 120cm x 80cm",
+    "width": 349,
+    "height": 467
   },
   {
     "name": "Vit fågel",
-    "info": "Acrylics on canvas, 50cm x 35cm"
+    "info": "Acrylics on canvas, 50cm x 35cm",
+    "width": 385,
+    "height": 467
   },
   {
     "name": "Waves",
-    "info": "Acrylics on wall, 100cm x 200cm"
+    "info": "Acrylics on wall, 100cm x 200cm",
+    "width": 577,
+    "height": 319
   },
   {
     "name": "Argentina",
-    "info": "Acrylics on canvas, 120cm x 120cm"
+    "info": "Acrylics on canvas, 120cm x 120cm",
+    "width": 496,
+    "height": 468
   },
   {
     "name": "Birth",
-    "info": "Acrylics on canvas, 60cm x 60cm"
+    "info": "Acrylics on canvas, 60cm x 60cm",
+    "width": 288,
+    "height": 419
   },
   {
     "name": "Blue Mind",
-    "info": "Acrylics on canvas, 15cm x 15cm"
+    "info": "Acrylics on canvas, 15cm x 15cm",
+    "width": 393,
+    "height": 471
   },
   {
     "name": "Blue Sense",
-    "info": "Acrylics on canvas, 60cm x 60cm"
+    "info": "Acrylics on canvas, 60cm x 60cm",
+    "width": 240,
+    "height": 360
   },
   {
     "name": "By The Fire",
-    "info": "Acrylics on canvas, 120cm x 80cm"
+    "info": "Acrylics on canvas, 120cm x 80cm",
+    "width": 353,
+    "height": 467
   },
   {
     "name": "Contact",
-    "info": "Acrylics on canvas, 60cm x 120cm"
+    "info": "Acrylics on canvas, 60cm x 120cm",
+    "width": 600,
+    "height": 289
   },
   {
     "name": "Elinor",
-    "info": "Mixed media, 90cm x 80cm"
+    "info": "Mixed media, 90cm x 80cm",
+    "width": 350,
+    "height": 467
   },
   {
     "name": "En fallen ängel",
-    "info": "Acrylics on canvas, 180cm x 50cm"
+    "info": "Acrylics on canvas, 180cm x 50cm",
+    "width": 502,
+    "height": 504
   },
   {
     "name": "Enclosure",
-    "info": "Oil on canvas, 120cm x 80cm"
+    "info": "Oil on canvas, 120cm x 80cm",
+    "width": 333,
+    "height": 504
   },
   {
     "name": "Friends",
-    "info": "Acrylics on canvas, 75cm x 60cm"
+    "info": "Acrylics on canvas, 75cm x 60cm",
+    "width": 347,
+    "height": 467
   },
   {
     "name": "Golden Forest",
-    "info": "Mixed media, 90cm x 80cm"
+    "info": "Mixed media, 90cm x 80cm",
+    "width": 350,
+    "height": 467
   },
   {
     "name": "In the City",
-    "info": "Acrylics on canvas, 100cm x 70cm"
+    "info": "Acrylics on canvas, 100cm x 70cm",
+    "width": 309,
+    "height": 467
   },
   {
     "name": "In the Water",
-    "info": "Mixed media and acrylics on canvas, 120xm x 80cm"
+    "info": "Mixed media and acrylics on canvas, 120xm x 80cm",
+    "width": 348,
+    "height": 467
   },
   {
     "name": "Inanna",
-    "info": "Acrylics on canvas, 120cm x 80cm"
+    "info": "Acrylics on canvas, 120cm x 80cm",
+    "width": 343,
+    "height": 467
   },
   {
     "name": "Kim",
-    "info": "Acrylics on canvas, 70 x 60cm"
+    "info": "Acrylics on canvas, 70 x 60cm",
+    "width": 361,
+    "height": 467
   },
   {
     "name": "Kvinnor",
-    "info": ""
+    "info": "",
+    "width": 265,
+    "height": 468
   },
   {
     "name": "Lars",
-    "info": "Acrylics on canvas, 90cm x 80cm"
+    "info": "Acrylics on canvas, 90cm x 80cm",
+    "width": 323,
+    "height": 467
   },
   {
     "name": "Lovers",
-    "info": "Collage and acrylics on canvas, 130cm x 80cm"
+    "info": "Collage and acrylics on canvas, 130cm x 80cm",
+    "width": 600,
+    "height": 385
   },
   {
     "name": "Magical Moment",
-    "info": "Mixed media and acrylics on canvas, 130cm x 80cm"
+    "info": "Mixed media and acrylics on canvas, 130cm x 80cm",
+    "width": 600,
+    "height": 446
   },
   {
     "name": "Pino och Lota",
-    "info": "Acrylics on canvas, 60cm x 80cm"
+    "info": "Acrylics on canvas, 60cm x 80cm",
+    "width": 561,
+    "height": 467
   },
   {
     "name": "Quiet Mind",
-    "info": "Acrylics on canvas, 90cm x 70cm"
+    "info": "Acrylics on canvas, 90cm x 70cm",
+    "width": 282,
+    "height": 466
   },
   {
     "name": "Red Bird",
-    "info": "Acrylics on canvas, 90cm x 80cm"
+    "info": "Acrylics on canvas, 90cm x 80cm",
+    "width": 409,
+    "height": 466
   },
   {
     "name": "Rejoice",
-    "info": "Acrylics on canvas, 150cm x 90cm"
+    "info": "Acrylics on canvas, 150cm x 90cm",
+    "width": 361,
+    "height": 600
   },
   {
     "name": "Röda Sten",
-    "info": "Acrylics on canvas, 90cm x 80cm"
+    "info": "Acrylics on canvas, 90cm x 80cm",
+    "width": 372,
+    "height": 466
   },
   {
     "name": "Selfportrait",
-    "info": "Acrylics on canvas, 60cm x 80cm"
+    "info": "Acrylics on canvas, 60cm x 80cm",
+    "width": 324,
+    "height": 467
   },
   {
     "name": "The Phonecall",
-    "info": "Acrylics on canvas, 60cm x 80cm"
+    "info": "Acrylics on canvas, 60cm x 80cm",
+    "width": 301,
+    "height": 467
   },
   {
     "name": "Tree and Duck",
-    "info": "Acrylics on canvas, 120cm x 80cm"
+    "info": "Acrylics on canvas, 120cm x 80cm",
+    "width": 350,
+    "height": 467
   }
 ]
